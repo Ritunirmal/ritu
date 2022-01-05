@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/ritu/static/css/main.6314150e.chunk.css",
+    "main.js": "/ritu/static/js/main.7a6873d5.chunk.js",
+    "main.js.map": "/ritu/static/js/main.7a6873d5.chunk.js.map",
+    "runtime-main.js": "/ritu/static/js/runtime-main.09ed04d4.js",
+    "runtime-main.js.map": "/ritu/static/js/runtime-main.09ed04d4.js.map",
+    "static/js/2.7c50021a.chunk.js": "/ritu/static/js/2.7c50021a.chunk.js",
+    "static/js/2.7c50021a.chunk.js.map": "/ritu/static/js/2.7c50021a.chunk.js.map",
+    "index.html": "/ritu/index.html",
+    "static/css/main.6314150e.chunk.css.map": "/ritu/static/css/main.6314150e.chunk.css.map",
+    "static/js/2.7c50021a.chunk.js.LICENSE.txt": "/ritu/static/js/2.7c50021a.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.09ed04d4.js",
+    "static/js/2.7c50021a.chunk.js",
+    "static/css/main.6314150e.chunk.css",
+    "static/js/main.7a6873d5.chunk.js"
+  ]
+}
