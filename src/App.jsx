@@ -1,28 +1,16 @@
-import React, { useState } from "react";
+import About from "./component/About/About";
+import Intro from "./component/intro/Intro";
+import ProductList from "./productList/ProductList";
+function App(){
+  return(
+    <div className="App">
+      <Intro/>
+      <About/>
+      
+    </div>
+  )
+}
 
-const App = () => {
-  const purple = "#8e44ad";
-  const [bg, setBg] = useState(purple);
-  const [name, setName] = useState("click me");
 
-  const bgChange = () =>{
-    let newBg = "#34495e";
-    setBg(newBg);
-    setName("don't click me")
-  };
-
-  const bgBack = () =>{
-    setBg(purple);
-    setName("thanx");
-  };
-
-  return (
-     <>
-     <div style = {{ backgroundColor : bg }}>
-     <button onMouseEnter={bgChange} onMouseLeave={bgBack}> {name} </button>
-     </div>
-     </>
-  );
-};
 
 export default App;
